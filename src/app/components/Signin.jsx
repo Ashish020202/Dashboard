@@ -1,7 +1,7 @@
 "use client";
 import {useNavigate} from "react-router-dom";
 export default function Signin(){
-  const navigate = useNavigate()
+  // const navigate = useNavigate()
     return <div className="justify-center md:mt-56">  
      <div className="bg-white max-w-xs mx-auto p-6 rounded shadow-md ">
     <h2 className="text-2xl font-semibold mb-4">Login</h2>
@@ -15,7 +15,8 @@ export default function Signin(){
         <input type="password" id="password" className="w-full px-3 py-2 border rounded-lg" />
       </div>
       <button type="submit" className="bg-blue-500 text-white font-semibold px-4 py-2 rounded hover:bg-blue-600 focus:outline-none focus:bg-blue-600" 
-       onClick={() => { navigate("/Dashboard")}}>
+      //  onClick={() => { navigate("/Dashboard")}}
+       >
         Login
       </button>
     </form>
