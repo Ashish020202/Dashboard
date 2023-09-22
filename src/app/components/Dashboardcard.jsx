@@ -67,7 +67,7 @@
 
 
 import { FaRegCalendarMinus, FaEllipsisV } from "react-icons/fa";
-import BarChart from "./Barchart";
+import BarChart from "./BarChart";
 import Piechart from "./Piechart";
 import Profile from "./Profile";
 
