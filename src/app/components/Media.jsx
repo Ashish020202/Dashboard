@@ -5,7 +5,7 @@ import { BsDiscord } from 'react-icons/bs'
 
 
 export default function Media(){
-    return <div  className='flex justify-self-center gap-6 flex-row lg:mr-80 absolute lg:bottom-20' >
+    return <div  className='flex md:justify-self-center gap-6  lg:mr-80 absolute lg:bottom-20 bottom-0 -mt-10'  >
           <BsGithub fontSize={'50'}/>
           <BsTwitter fontSize={'50'}/>
           <AiFillLinkedin fontSize={'50'}/>
