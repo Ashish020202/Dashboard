@@ -79,10 +79,10 @@ export default function Dashboardcard() {
           Dashboard
         </h1>
 
-        {/* <button className="bg-blue-600 hover:bg-blue-700 text-white rounded-md px-3 py-2">
+        <button className="bg-blue-600 hover:bg-blue-700 text-white rounded-md px-3 py-2">
           Generate Report
-        </button> */}
-        <input type="search" name="" id="" placeholder="search"/>
+        </button>
+        {/* <input type="search" name="" id="" placeholder="search"/> */}
       </div>
       <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6 mt-6 md:mt-8">
         <div className="bg-white rounded-lg shadow-md border-l-4 border-blue-600 hover:shadow-lg transform hover:scale-103 transition duration-300 ease-out p-4">
