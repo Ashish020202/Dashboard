@@ -32,13 +32,13 @@ export default function Home() {
   //   </ul>
   // {/* <Homepage /> */}
   <ul>
-    <Link legacyBehavior href="/"  passHref={true}>
+    {/* <Link legacyBehavior href="/"  passHref={true}>
       <a><Homepage /></a>
-    </Link>
-
-    {/* <Link legacyBehavior href="/Dashboard"  passHref={true}>
-      <a><Dashboard /></a>
     </Link> */}
+
+    <Link legacyBehavior href="/Dashboard"  passHref={true}>
+      <a><Dashboard /></a>
+    </Link>
   </ul>
     
     

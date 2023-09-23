@@ -14,6 +14,8 @@ export default function Homepage(){
     // </div>
     return <div className="flex flex-col h-screen p-3 md:flex-row" style={{ background: 'linear-gradient(100deg, rgba(66, 133, 244, 1) 45%, rgba(248, 250, 255, 1) 45%)' }}>
     <span href="logo" className="text-cyan-50 font-bold text-2xl m-2 mt-5 md:m-10 md:mt-20">LOGO</span>
+{/* 
+    <span>Dashboard</span> */}
     <div className="flex justify-center w-full md:w-1/2">
   
       <Media />
